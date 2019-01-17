@@ -1,11 +1,15 @@
 body{
     margin:0;
     padding:0;
-    background-color:#999;
-    font-family:arial;
+    background-color:#29102E;
+    font-family: arial, cursive;
   }
   .pad{
     transform:scale(0.9)
+  }
+  .color{
+    background-color:#B87D95;
+    color:#000;
   }
   .calc{
     width:350px;
@@ -13,7 +17,6 @@ body{
     margin:100px auto;
     background-color:#eee;
     border:solid 2px #000;
-    
   }
   #display{
     width:95%;
@@ -25,8 +28,8 @@ body{
     font-size:25px;
     padding:0 10px;
     border-radius:5px;
-    border:1px solid #000;
-    background-color:rgb(30, 30, 30);
+    background-color:rgb(37, 37, 37);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     color:#fff;
   }
   .btn-wrap{
@@ -40,20 +43,20 @@ body{
   .btn{
     width:50px;
     height:50px;
-    background-color:#999;
-    border-radius:2px;
-    border:solid 1px;
+    background-color:#4D2A4F;
+    border-radius:3px;
     line-height:50px;
     font-size:25px;
     text-align:center;
     cursor:pointer;
     margin:auto;
+    color:#fff;
   }
   .c-btn{
     width:100px;
     margin: 50px auto;
     height:50px;
-    background-color:#999;
+    background-color:#DDA8B5;
     border-radius:2px;
     border:solid 1px;
     line-height:50px;
